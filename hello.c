@@ -3,6 +3,10 @@
 
 main()
 {
-  printf("Hello World after 6 years.. \n");
+  char ch;
+  
+  printf("enter your first name initial: ")
+    scanf("%c",&ch);
+  printf("Hello World %c after 6 years.. \n ",ch);
 }
 
